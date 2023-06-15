@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using CSharpClasses.Models;
+using System.Globalization;
 
 namespace Dates
 {
@@ -57,7 +58,7 @@ namespace Dates
             Console.WriteLine(year);
 
             #region Exercise 4
-            DateTime today = DateTime.Today;
+            DateTime todayX = DateTime.Today;
             Console.WriteLine(today.AddDays(3));
             Console.WriteLine(today.AddMonths(1).AddDays(3));
             Console.WriteLine(today.AddYears(-1).AddMonths(-2));
