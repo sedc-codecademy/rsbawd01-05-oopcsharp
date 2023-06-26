@@ -52,8 +52,6 @@
             Console.WriteLine(".....................");
             Console.WriteLine($"Result: {result}");
             Console.WriteLine(".....................");
-
-            Console.ReadLine();
         }
     }
 }
